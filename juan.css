@@ -1,0 +1,91 @@
+/* ===========================
+   GAYA UMUM HALAMAN
+=========================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+header {
+    background-color: #b22222; /* Merah maroon */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ===========================
+   NAVIGASI
+=========================== */
+nav {
+    background-color: #c00101; /* Merah tua */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(202, 207, 209);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+}
+
+/* ===========================
+   KONTEN UTAMA
+=========================== */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: rgb(244, 238, 238);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #e62a0e;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ===========================
+   PETA GOOGLE MAPS
+=========================== */
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+iframe {
+    border: 0;
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+footer {
+    background-color: #e6211d;
+    color: rgba(253, 248, 248, 0.897);
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
